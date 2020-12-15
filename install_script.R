@@ -6,6 +6,7 @@ install.packages("Canopy")
 install.packages("jsonlite")
 install.packages("vcfR")
 
+
 ## Bioconductor package
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
