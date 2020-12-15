@@ -13,7 +13,7 @@ From: rocker/tidyverse:3.6.3
   pip install https://github.com/NagaComBio/BioMine/archive/master.zip
   pip install https://github.com/NagaComBio/CharGer/archive/master.zip
   pip install cython==0.29.14
-  pip install cyvcf2==0.2.0
+  pip install cyvcf2==0.9.0
 
   echo "Installing R packages"
   /usr/local/bin/Rscript install_script.R
