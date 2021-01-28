@@ -15,6 +15,7 @@ From: rocker/tidyverse:3.6.3
   pip install cython==0.29.14
   pip install cyvcf2==0.9.0
   pip install pandas
+  pip install matplotlib
 
   echo "Installing R packages"
   /usr/local/bin/Rscript install_script.R
