@@ -7,7 +7,7 @@ From: rocker/tidyverse:3.6.3
 
 %post
   echo "Updating..."
-  apt-get update && apt-get -y install wget python-pip
+  apt-get update && apt-get -y install wget python-pip ghostscript
 
   echo "Installing python packages"
   pip install https://github.com/NagaComBio/BioMine/archive/master.zip
