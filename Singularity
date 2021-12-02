@@ -7,7 +7,8 @@ From: rocker/tidyverse:3.6.3
 
 %post
   echo "Updating..."
-  apt-get update && apt-get -y install wget python-pip ghostscript
+  apt update --allow-releaseinfo-change && apt -y install wget python-pip ghostscript
+  apt -y install libbz2-dev liblzma-dev
 
   echo "Installing python packages"
   pip install https://github.com/NagaComBio/BioMine/archive/master.zip
