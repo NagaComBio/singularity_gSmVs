@@ -12,7 +12,8 @@ From: rocker/tidyverse:3.6.3
 
   echo "Installing python packages"
   pip install https://github.com/NagaComBio/BioMine/archive/master.zip
-  pip install https://github.com/NagaComBio/CharGer/archive/master.zip
+  # Commit: bugfix in 'mostSevere' consensus determination
+  pip install git+https://github.com/NagaComBio/CharGer.git@0c606a26940389ff38a046f92270b72d5c7d6ec7
   pip install cython==0.29.14
   pip install cyvcf2==0.9.0
   pip install futures==3.3.0
