@@ -55,7 +55,7 @@ From: rocker/tidyverse:4.1.2
   ## Installing python2 packages
   wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
   python2 get-pip.py
-  python2 -m pip install pysam==0.16.0.1
+  python2 -m pip install pysam==0.16.0.1 pytest==4.6.11
 
   python2 -m pip install https://github.com/NagaComBio/BioMine/archive/master.zip
   # Commit: Prioritize severe cons from GOI
@@ -71,6 +71,7 @@ From: rocker/tidyverse:4.1.2
   pip3 install futures3==1.0.0
   pip3 install pandas==1.3.4
   pip3 install matplotlib==3.5.0
+  pip3 install pytest==6.2.5
 
 %runscript
 
