@@ -1,3 +1,5 @@
+### Singularity image with CharGer and R libraries for germline small variants workflow.
+
 To build the singularity image in a cloud instance
 
 ```
