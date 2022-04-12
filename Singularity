@@ -58,9 +58,10 @@ From: rocker/tidyverse:4.1.2
   python2 get-pip.py
   python2 -m pip install pysam==0.16.0.1 pytest==4.6.11 pypez==0.1.5 pandas==0.24.2 configargparse==0.14.0
 
-  python2 -m pip install https://github.com/NagaComBio/BioMine/archive/master.zip
-  # Commit: Prioritize severe cons from GOI
-  pip install git+https://github.com/NagaComBio/CharGer.git@bba1f0e13437582ef1e989426a0625e6f0a73ca
+  # commit: Add hgvsc_vep/hgvsp_vep to vepconsequencevariant
+  pip install git+https://github.com/NagaComBio/BioMine.git@dca65800ef96accf361e5699c4dffa78d8d89938
+  # Commit: hgvsc & hgvsp directly from VEP
+  pip install git+https://github.com/NagaComBio/CharGer.git@421de97e3f383cef011c5107151bbbb4c6641e81
 
   python2 -m pip install matplotlib==1.4.3
 
