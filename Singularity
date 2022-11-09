@@ -50,6 +50,8 @@ From: rocker/tidyverse:4.1.2
   R -e "remotes::install_version('vcfR', version='1.10.0', dependencies= T)"
   R -e "remotes::install_github('thomasp85/patchwork@v1.0.1')"
   R -e "BiocManager::install('GenomicRanges', version=3.14)"
+  R -e "BiocManager::install('plyranges', version=3.14)"
+  R -e "remotes::install_github('NagaComBio/superintronic@b6a062c', dependencies= T)" 
 
 
   ###########################################################################
