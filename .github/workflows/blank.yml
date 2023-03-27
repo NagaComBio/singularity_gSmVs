@@ -21,7 +21,8 @@ jobs:
       
       - name: Install Singularity
         run: |
-          apt-get install apptainer
+          sudo apt-get update && sudo apt-get install -y curl
+          curl -fsSL https://download.apptainer.io/linux/install.sh | sudo bash
       
       - name: Build Singularity image
         run: singularity build gSmVs.sif Singularity
