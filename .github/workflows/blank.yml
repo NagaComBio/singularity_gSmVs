@@ -9,14 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout v2
         uses: actions/checkout@v2
         with:
           submodules: 'recursive'
           # Add the following lines to use Node.js 16
-        - name: Use Node.js 16
-          uses: actions/setup-node@v2
-          with:
-            node-version: '16.x'
+      - name: Use Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
       
       - name: Install Singularity
         run: |
