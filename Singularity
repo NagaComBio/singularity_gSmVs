@@ -5,7 +5,7 @@ From: rocker/tidyverse:4.2.2
 %post
   ## Updating...
   apt update --allow-releaseinfo-change 
-  apt -y install wget python3-pip python2.7-dev libbz2-dev liblzma-dev libncurses5-dev poppler-utils
+  apt -y install wget python3-pip python2.7-dev libbz2-dev liblzma-dev libncurses5-dev poppler-utils texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
 
   ## Install htslib 1.16
@@ -82,7 +82,6 @@ From: rocker/tidyverse:4.2.2
   pip3 install pandas==1.3.4
   pip3 install matplotlib==3.5.0
   pip3 install pytest==6.2.5
-  pip3 install smvplot==0.0.3
 
   ##########################################################################
   ## Downloading Clinvar parsing repo
