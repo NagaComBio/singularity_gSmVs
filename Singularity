@@ -85,6 +85,7 @@ From: rocker/tidyverse:4.2.2
 
   ##########################################################################
   ## Downloading Clinvar parsing repo
+  ## Updated to e10566b7b255477bc2fc7d97e346dfa1869c4965
   git clone https://github.com/NagaComBio/clinvar.git
   mkdir /src
   mv clinvar/src /src/clinvar_src
