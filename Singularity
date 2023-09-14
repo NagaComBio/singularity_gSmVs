@@ -82,6 +82,8 @@ From: rocker/tidyverse:4.2.2
   pip3 install pandas==1.3.4
   pip3 install matplotlib==3.5.0
   pip3 install pytest==6.2.5
+  pip3 install pyyaml==6.0
+  pip3 install pytest-mock==3.11.1
 
   ##########################################################################
   ## Downloading Clinvar parsing repo
