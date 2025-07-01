@@ -63,8 +63,8 @@ From: rocker/tidyverse:4.2.2
 
   # commit: Add hgvsc_vep/hgvsp_vep to vepconsequencevariant
   pip install git+https://github.com/NagaComBio/BioMine.git@dca65800ef96accf361e5699c4dffa78d8d89938
-  # Commit: when equal rank update only if GOI is >=
-  pip install git+https://github.com/NagaComBio/CharGer.git@06249183b0763e78217be4737c67f5d05f0243aa
+  # Commit: Updating CADD's VEP short name
+  pip install git+https://github.com/NagaComBio/CharGer.git@319b2fa9d7298aac3b38b0b48ff5832de75fd8f4
 
   python2 -m pip install matplotlib==1.4.3
 
