@@ -59,7 +59,7 @@ From: rocker/tidyverse:4.2.2
   ## Installing python2 packages
   wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
   python2 get-pip.py
-  python2 -m pip install pysam==0.16.0.1 pytest==4.6.11 pypez==0.1.5 pandas==0.24.2 configargparse==0.14.0
+  python2 -m pip install numpy==1.25.1 pysam==0.16.0.1 pytest==4.6.11 pypez==0.1.5 pandas==0.24.2 configargparse==0.14.0
 
   # commit: Add hgvsc_vep/hgvsp_vep to vepconsequencevariant
   pip install git+https://github.com/NagaComBio/BioMine.git@dca65800ef96accf361e5699c4dffa78d8d89938
