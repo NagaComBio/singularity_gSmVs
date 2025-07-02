@@ -59,12 +59,12 @@ From: rocker/tidyverse:4.2.2
   ## Installing python2 packages
   wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
   python2 get-pip.py
-  python2 -m pip install numpy==1.25.1 pysam==0.16.0.1 pytest==4.6.11 pypez==0.1.5 pandas==0.24.2 configargparse==0.14.0
+  python2 -m pip install numpy==1.16.6 pysam==0.16.0.1 pytest==4.6.11 pypez==0.1.5 pandas==0.24.2 configargparse==0.14.0
 
   # commit: Add hgvsc_vep/hgvsp_vep to vepconsequencevariant
   pip install git+https://github.com/NagaComBio/BioMine.git@dca65800ef96accf361e5699c4dffa78d8d89938
-  # Commit: Updating CADD's VEP short name
-  pip install git+https://github.com/NagaComBio/CharGer.git@319b2fa9d7298aac3b38b0b48ff5832de75fd8f4
+  # Commit: Update VEP info based on VEP v110
+  pip install git+https://github.com/NagaComBio/CharGer.git@48558ddd89e96700cd4eac89774097e70b9abbdf
 
   python2 -m pip install matplotlib==1.4.3
 
@@ -73,8 +73,9 @@ From: rocker/tidyverse:4.2.2
   python3 -m pip install --upgrade pip
   pip3 install --upgrade wheel
   pip3 install --upgrade setuptools
-  pip3 install cmake
-  pip3 install cython
+  pip3 install numpy==1.25.1
+  pip3 install cmake==3.27.0
+  pip3 install cython==3.0.0
   pip3 install cyvcf2==0.30.18
 
   ## Installing python3 packages
